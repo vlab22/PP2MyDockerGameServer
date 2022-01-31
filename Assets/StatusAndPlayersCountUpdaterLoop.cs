@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class PlayersCountUpdaterLoop : MonoBehaviour
+public class StatusAndPlayersCountUpdaterLoop : MonoBehaviour
 {
     public GameServer server;
     public float interval = 5f;
 
-    public IntUnityEvent notifyPlayerCount;
+    public UnityEvent notifyServerStatus;
+    public IntUnityEvent notifyServerPlayerCounter;
+
 
     private void Start()
     {
@@ -23,7 +26,11 @@ public class PlayersCountUpdaterLoop : MonoBehaviour
         {
             yield return new WaitForSeconds(interval);
 
-            notifyPlayerCount?.Invoke(server.PlayersCount);
+            notifyServerPlayerCounter?.Invoke(server.PlayersCount);
+
+            yield return null;
+            
+            notifyServerStatus?.Invoke();
         }
     }
 }

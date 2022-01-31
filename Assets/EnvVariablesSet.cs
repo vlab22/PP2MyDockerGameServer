@@ -31,17 +31,17 @@ public class EnvVariablesSet : MonoSingleton<EnvVariablesSet>
             { "PP2_SERVER_ID", "-1" },
             { "PP2_USER_AUTH", "pp2game" },
             { "PP2_USER_AUTH_PASS", "KDcx6kB2v77B5bm5AwY7XakYSsSB7Q4R" },
-            { "PP2_AUTH_CODE", "s1GIzLcjWf3uSHN7WS8HIbhh4LFWdVIsi25scAASvpBuy9u7JkRcWw==" },
+            { "PP2_AUTH_CODE", "nO3yJr14m3cpsrimxAd0tQk57/Gu2BDuZMn8GEXXarB4lEEaB0aMQA==" },
             { "PP2_UPDATE_GAME_SERVER_PLAYER_COUNT_QUERY", "/api/UpdateGameServerPlayerCountDataAzFc" },
             { "PP2_UPDATE_GAME_SERVER_STATUS_QUERY", "/api/UpdateGameServerStatusDataAzFc" },
             { "PP2_MAX_PLAYERS", "-1" },
             { "PP2_PLAYERS_COUNT", "-1" },
             { "PP2_SERVER_PORT", "-1" },
-#if UNITY_EDITOR
-            { "PP2_AZ_FC_URL", "http://localhost:7071" },
-#else
-            { "PP2_AZ_FC_URL", "https://pp2gameazurefcs20220127010428.azurewebsites.net" },
-#endif
+//#if UNITY_EDITOR
+//            { "PP2_AZ_FC_URL", "http://localhost:7071" },
+//#else
+            { "PP2_AZ_FC_URL", "https://pp2gameazurefcs.azurewebsites.net" },
+//#endif
         };
 
         var keys = envNames.Keys.ToArray();

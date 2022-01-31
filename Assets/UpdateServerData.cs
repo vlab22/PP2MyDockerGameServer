@@ -32,7 +32,7 @@ public class UpdateServerData : MonoBehaviour
         _updatePlayerCounterUrl = envSetS.PP2_AZ_FC_URL + envSetS.PP2_UPDATE_GAME_SERVER_PLAYER_COUNT_QUERY + $"?code={_authCode}";
         _updateStatusUrl = envSetS.PP2_AZ_FC_URL + envSetS.PP2_UPDATE_GAME_SERVER_STATUS_QUERY + $"?code={_authCode}";
     }
-
+    
     public void SaveServerStatusData(string newStatus)
     {
         StartCoroutine(SaveServerStatusDataRoutine(newStatus));
