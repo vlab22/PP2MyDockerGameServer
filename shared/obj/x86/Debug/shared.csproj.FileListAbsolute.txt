@@ -1,0 +1,12 @@
+C:\gamedev\saxion_unity_projects\networking\assignment_4_flic_flac_flo\shared\bin\Debug\shared.dll
+C:\gamedev\saxion_unity_projects\networking\assignment_4_flic_flac_flo\shared\bin\Debug\shared.pdb
+C:\gamedev\saxion_unity_projects\networking\assignment_4_flic_flac_flo\shared\obj\x86\Debug\shared.csproj.AssemblyReference.cache
+C:\gamedev\saxion_unity_projects\networking\assignment_4_flic_flac_flo\shared\obj\x86\Debug\shared.csproj.CoreCompileInputs.cache
+C:\gamedev\saxion_unity_projects\networking\assignment_4_flic_flac_flo\shared\obj\x86\Debug\shared.dll
+C:\gamedev\saxion_unity_projects\networking\assignment_4_flic_flac_flo\shared\obj\x86\Debug\shared.pdb
+C:\gamedev\saxion_unity_projects\MyDockerGameServer\shared\bin\Debug\shared.dll
+C:\gamedev\saxion_unity_projects\MyDockerGameServer\shared\bin\Debug\shared.pdb
+C:\gamedev\saxion_unity_projects\MyDockerGameServer\shared\obj\x86\Debug\shared.csproj.AssemblyReference.cache
+C:\gamedev\saxion_unity_projects\MyDockerGameServer\shared\obj\x86\Debug\shared.csproj.CoreCompileInputs.cache
+C:\gamedev\saxion_unity_projects\MyDockerGameServer\shared\obj\x86\Debug\shared.dll
+C:\gamedev\saxion_unity_projects\MyDockerGameServer\shared\obj\x86\Debug\shared.pdb
