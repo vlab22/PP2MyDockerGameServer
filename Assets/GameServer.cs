@@ -25,7 +25,7 @@ public class GameServer : MonoBehaviour
     public IntUnityEvent playerCountUpdatedEvent;
 
     public UnityEvent serverRunningEvent;
-    
+
     private void Awake()
     {
         _members = new List<TcpMessageChannel>();

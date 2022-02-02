@@ -28,7 +28,7 @@ public class EnvVariablesSet : MonoSingleton<EnvVariablesSet>
     {
         envNames = new Dictionary<string, string>()
         {
-            { "PP2_SERVER_ID", "-1" },
+            { "PP2_SERVER_ID", "1" },
             { "PP2_USER_AUTH", "pp2game" },
             { "PP2_USER_AUTH_PASS", "KDcx6kB2v77B5bm5AwY7XakYSsSB7Q4R" },
             { "PP2_AUTH_CODE", "nO3yJr14m3cpsrimxAd0tQk57/Gu2BDuZMn8GEXXarB4lEEaB0aMQA==" },

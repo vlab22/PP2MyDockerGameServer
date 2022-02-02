@@ -11,6 +11,7 @@ public class StatusAndPlayersCountUpdaterLoop : MonoBehaviour
     public UnityEvent notifyServerStatus;
     public IntUnityEvent notifyServerPlayerCounter;
 
+    public int playerCountDebug;
 
     private void Start()
     {
@@ -26,6 +27,8 @@ public class StatusAndPlayersCountUpdaterLoop : MonoBehaviour
         {
             yield return new WaitForSeconds(interval);
 
+            playerCountDebug = server.PlayersCount;
+                
             notifyServerPlayerCounter?.Invoke(server.PlayersCount);
 
             yield return null;
